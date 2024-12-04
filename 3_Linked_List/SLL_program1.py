@@ -49,7 +49,7 @@ class SLL:
             self.start = self.start.next
 
     def delete_last(self):
-        # check whether the list is empty
+        # check whether the list is empty or not
         if self.start is not None:      # No element in list
             pass
 
