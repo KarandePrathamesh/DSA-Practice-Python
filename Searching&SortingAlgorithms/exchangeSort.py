@@ -1,5 +1,5 @@
 def exchangeSort(arr):
-    size = len(arr)-1
+    size = len(arr)
     for i in range(size):
         for j in range(i+1, size):
             if(arr[i]>arr[j]):                   # if > sorts ascending , or < sorts descending order

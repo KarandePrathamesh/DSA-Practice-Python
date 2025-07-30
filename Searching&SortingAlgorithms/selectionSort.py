@@ -1,5 +1,5 @@
 def selectionSort(arr):
-    size = len(arr)-1
+    size = len(arr)
     for i in range(size):
         min_index = i
         for j in range(i+1, size):
